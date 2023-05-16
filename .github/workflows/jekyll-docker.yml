@@ -22,4 +22,5 @@ jobs:
       with:
         branch: main
         FOLDER: build
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        CLEAN: true
