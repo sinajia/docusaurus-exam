@@ -22,5 +22,4 @@ jobs:
       with:
         branch: main
         FOLDER: build
-      env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
